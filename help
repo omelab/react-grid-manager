@@ -1,10 +1,13 @@
-//pagination with data table
+//pagination with data table 
 - https://www.npmjs.com/package/react-data-table-component
+- * https://stackoverflow.com/questions/62274407/data-table-filtering-using-react-data-table-component
 - https://www.cluemediator.com/server-side-pagination-with-react-datatable
 - https://codesandbox.io/s/react-data-table-server-side-pagination-delete-xmdju?file=/src/index.js
+- https://blog.logrocket.com/complete-guide-building-smart-data-table-react/
+- *https://jbetancur.github.io/react-data-table-component
 
 
-//example
+//example Codes
 - https://www.cluemediator.com/
 
 //sweet alert

@@ -142,7 +142,7 @@ const MasterGridActions = () => {
             </Route> 
             <Route path={match.path}>
             <DataTable
-                title="Users"
+                title={false}
                 columns={columns}
                 data={data}
                 progressPending={loading}

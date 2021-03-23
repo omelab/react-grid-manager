@@ -6,18 +6,22 @@ import {
   Link, 
 } from "react-router-dom";
  
+import Nav from "./components/Nav";
 import Home from "./components/Home";
 import About from "./components/About";
 import Topics from "./components/Topics";
 import MasterGrid from "./components/MasterGrid";
 import MasterGridActions from "./components/MasterGridActions";
+import MovieList from "./pages/MovieList";
+import {MovieProvider} from "./context/MovieContext";
 
 
 function App() {
+ 
   return (
     <Router>
-      <div>
-        <ul>
+      <MovieProvider>
+        {/* <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -30,8 +34,11 @@ function App() {
           <li>
             <Link to="/data-table">Data Table</Link>
           </li>
-        </ul>
-
+          <li>
+            <Link to="/movie">Movies</Link>
+          </li>
+        </ul> */}
+        <Nav />
         <Switch>
           <Route path="/about">
             <About />
@@ -45,11 +52,14 @@ function App() {
           <Route path="/data-table-action/:slug">
             <MasterGridActions />
           </Route> 
+          <Route path="/movie">
+            <MovieList />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
         </Switch>
-      </div>
+      </MovieProvider>
     </Router>
   );
 }
