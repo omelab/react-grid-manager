@@ -13,3 +13,6 @@
 //sweet alert
 - https://sweetalert2.github.io/recipe-gallery/sweetalert2-react.html
 - https://sweetalert2.github.io/#examples
+
+// deduct click outside
+https://stackoverflow.com/questions/32553158/detect-click-outside-react-component
