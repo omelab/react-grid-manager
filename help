@@ -16,3 +16,21 @@
 
 // deduct click outside
 https://stackoverflow.com/questions/32553158/detect-click-outside-react-component
+
+
+//context
+- https://www.freecodecamp.org/news/state-management-with-react-hooks/
+- https://dev.to/vanderleisilva/global-state-management-with-react-hooks-and-context-5f6h
+- https://haseebmajid.dev/blog/react-hooks-context-and-local-storage
+- https://www.robinwieruch.de/local-storage-react
+- https://liamsilk.dev/posts/persisting-and-sharing-state-using-reacts-usecontext-hook-and-local-storage/
+
+
+
+//help
+- ***https://stackoverflow.com/questions/26176519/reactjs-call-parent-method
+- ***https://reactgo.com/react-call-parent-component-method/
+-https://shopify.engineering/building-data-table-component-react
+-https://libraries.io/npm/react-data-table-component
+-https://reactjsexample.com/simple-data-table-component-with-react/
+-https://www.npmjs.com/package/react-data-table-component
